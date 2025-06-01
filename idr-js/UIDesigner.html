@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link href="jquery-ui-1.11.2/jquery-ui.css" rel="stylesheet"> -->
+<link href="idr-ui-widget-form.css" rel="stylesheet">
+<link href="idr-ui-widget-tab.css" rel="stylesheet">
+<link href="idr-ui-widget-modal.css" rel="stylesheet">
+<link href="idr-uidesigner.css" rel="stylesheet">
+<style>
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+/* #div0 {width:90%;height:650px;padding:2px;border:1px solid #aaaaaa;} */
+/* #div1 {width:80%;height:100%;float:left;} */
+/* #div2 {width:20%;height:100%;border:1px solid #aaaaaa;float:left;} */
+
+.idr-ui-widget {position:relative; display:inline-block; width:100%;float:left;}
+
+.h1 {font-size:1.5em;}
+.h2 {font-size:1.3em;}
+.h3 {font-size:1.1em;}
+
+.idr-style-inherit {display:inherit;}
+.idr-style-inline-block {display:inline-block; width:100%;}
+
+.idr-ui-widget-table {
+	width:inherit;
+}
+
+.idr-ui-widget-iconbutton {
+    background-color: #F0ECEB;
+    border:1px solid #6C7476;
+    padding: 5px 2px 2px 2px;
+    color: #5E5E5E;
+	width:34px;
+	height:34px;
+    border-radius: 5px;
+}
+
+.idr-ui-widget-iconbutton:hover {
+    background-color: #6C7476;
+    color: #FFF;
+}
+
+.idr-ui-widget-iconbutton.add {
+	text-indent:-9999px;
+	background-image:url(resources/images/add.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100px;
+}
+
+.idr-ui-widget-iconbutton.delete {
+	text-indent:-9999px;
+	background-image:url(resources/images/delete.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.idr-ui-widget-overlay {
+	position: fixed;
+	top:0px;
+	right: 0px;
+	bottom:0px;
+	left:0px;
+	background:rgba(102, 102, 102, 0.75);
+}
+
+.idr-ui-widget-overlay .modal {
+    width:40%;
+    height:50%;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/TemplateBinding/load.js"></script>
+<script src="js/Math.uuid.js"></script>
+<script src="UIDesigner.js"></script>
+</head>
+<body onload="onPageLoad()">
+</body>
+</html>

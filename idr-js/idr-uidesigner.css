@@ -1,0 +1,88 @@
+.idr-uidesigner {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	padding:1px;
+} 
+
+.idr-uidesigner .widgetFrame {
+	display:inline-block;
+	float:left;
+	width:80%;
+	margin-left:50%;
+	transform: translateX(-50%);
+	height:80px;
+	padding:10px;
+	background: #9DC45F; 
+	border-radius: 5px 5px 0px 0px; 
+	border:1px solid #89AF4C; 
+	padding: 15px 0px 15px 10px;
+}
+
+.idr-uidesigner .widget{
+	background-color: #F0ECEB;
+	border:1px solid #89AF4C;
+	border-radius: 5px;
+	margin:2px;
+	padding:2px;
+}
+
+.idr-uidesigner .canvasFrame {
+	display:inline-block;
+	float:left;
+	width:80%;
+	height:85%;
+	margin-left:50%;
+	padding:10px;
+	transform: translateX(-50%);
+	overflow:auto; 
+	background:#F8F8F8;
+	border-radius: 0px 0px 5px 5px; 
+	border:1px solid #89AF4C; 
+}
+
+
+.idr-uidesigner .canvasFrame * {
+	font-size:1em;
+}
+
+.idr-uidesigner .canvasFrame .idr-ui-widget {
+	position:relative; 
+	display:inline-block; 
+	width:100%;
+	float:left; 
+	background-color:#F7E8DE; 
+	border-radius: 5px;
+	border:1px solid #54D1F1; 
+	margin:2px; 
+	padding:3px;
+}
+
+.idr-uidesigner .canvasFrame .idr-style-inherit {
+	display:inherit;
+}
+
+.idr-uidesigner .canvasFrame .idr-ui-widget label::after {
+	content:" : ";
+}
+
+.idr-uidesigner .canvasFrame .idr-ui-widget textarea {
+	width:100%;
+	height:100px;
+}
+
+.idr-uidesigner .canvasFrame .idr-ui-widget-frame {
+	width:100%; 
+	float:left; 
+	min-width:100px;
+	min-height:100px;
+	padding:10px;
+	border-radius: 5px; 
+	border:1px solid #66A7C5;
+	display:inline-block; 
+	background-color:rgba(206, 235, 251, 0.25); 
+/* 	background-color:#F0ECEB; */
+	margin:1px;
+}

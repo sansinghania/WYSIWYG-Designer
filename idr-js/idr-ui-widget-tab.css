@@ -1,0 +1,31 @@
+.idr-ui-widget-tab {
+	position:relative; display:inline-block; width:100%;float:left;
+	background-color:#F8F8F8;
+	margin-left:auto; 
+	margin-right:auto; 
+	border-radius: 5px;
+}
+
+.idr-ui-widget-tab .content, .navigator {
+	position:relative; display:inline-block; width:100%;float:left;
+	padding: 0px 0px 10px 0px;
+}
+
+.idr-ui-widget-tab .tab {
+    background-color: #F0ECEB;
+    float: left;
+    margin: 5px 0px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+    border:1px solid #6C7476;
+    padding: 5px 10px 5px 10px;
+    color: #5E5E5E;
+}
+
+.idr-ui-widget-tab .tab:hover {
+    border:1px solid #89AF4C;
+}
+
+.idr-ui-widget-tab .tab.selected {
+    background-color: #6C7476;
+    color: #FFF;
+}
